@@ -44,5 +44,17 @@
   object-fit: cover;
   object-position: left;
 }
-
+@media screen and (max-width: 576px) {
+  .hero_container{
+    flex-direction: column;
+    
+  }
+  .hero_text{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .hero_img{
+    width: 100%;
+  }
+}
 
